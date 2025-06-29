@@ -1,0 +1,58 @@
+.experience-sharing-container {
+  width: 60%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experience-sharing-title {
+  text-align: center;
+  color: #333;
+}
+
+.experience-sharing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experience-sharing-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-sharing-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.experience-sharing-input,
+.experience-sharing-select,
+.experience-sharing-file {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.experience-sharing-button {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.experience-sharing-button:hover {
+  background: #0056b3;
+}

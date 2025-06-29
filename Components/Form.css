@@ -1,0 +1,102 @@
+/* Main container */
+.resume-editor {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: none; /* Removes the inner box-shadow */
+}
+
+/* Tab navigation */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #555; /* Default text color */
+}
+
+.tab-button:hover {
+  color: #007bff; /* Blue text on hover */
+  background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+.tab-button.active {
+  border-bottom: 3px solid #007bff; /* Blue bottom border for active tab */
+  font-weight: bold;
+  color: #007bff; /* Blue text for active tab */
+}
+
+/* Form Sections */
+.tab-content {
+  padding: 20px;
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s ease;
+  margin-bottom: 15px; /* Added gap between inputs */
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Save Button */
+.save-button {
+  width: 100%;
+  background: #007bff; /* Blue background */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px; /* Added margin for spacing */
+}
+
+.save-button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+
+.save-button:active {
+  background: #004080; /* Even darker blue on active */
+  transform: scale(0.98); /* Slight shrink effect on click */
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .resume-editor {
+    width: 90%;
+  }
+
+  .tabs {
+    flex-wrap: wrap; /* Allow tabs to wrap on smaller screens */
+  }
+
+  .tab-button {
+    flex: 1 1 100%; /* Full width for tabs on smaller screens */
+    margin-bottom: 10px; /* Added gap between tabs */
+  }
+}

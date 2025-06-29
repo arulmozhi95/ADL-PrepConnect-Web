@@ -1,0 +1,46 @@
+.resume-template1{
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: white;
+}
+/*.resume-preview {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto; /* Centers the container *
+  padding: 20px;
+}*/
+.resume-preview-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto; /* Centers the container */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Ensures vertical alignment */
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

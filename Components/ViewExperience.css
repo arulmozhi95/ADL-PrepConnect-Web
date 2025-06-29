@@ -1,0 +1,89 @@
+.view-experience-container {
+    width: 60%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .view-experience-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .view-experience-filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .view-experience-select {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .view-experience-button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .view-experience-button:hover {
+    background: #0056b3;
+  }
+  
+  .view-experience-results {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+  }
+  .view-experience-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .view-experience-filters {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .view-experience-select, .view-experience-button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .view-experience-results ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experience-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  .company_name{
+    color:#333;
+  }
+  
