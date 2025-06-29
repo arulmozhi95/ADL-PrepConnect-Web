@@ -4,6 +4,7 @@ from .views import scrape_view
 from .views import SignupView, LoginView
 
 
+
 urlpatterns = [
     path("share-experience/", share_experience, name="share-experience"),
     path("view-experience/", view_experience, name="view-experience"),
